@@ -1,0 +1,32 @@
+== About ==
+
+"PHP Video for Everybody!" is a PHP script that generates HTML to include video
+in a web page. It is based on the code "Video for Everybody!" hosted at
+
+http://camendesign.com/code/video_for_everybody
+
+It was designed to streamline the process of incorporating video in a standards-
+compliant way.
+
+
+== Running the Code ==
+
+The constants at the beginning of the script should be defined before use:
+
+Constant						Type			Description
+VH_CONTROLS						boolean			Whether or not to use the browser's default controls
+VH_PRELOAD						boolean			Whether or not to preload the video
+VH_AUTOPLAY						boolean			Whether or not to automatically begin playing the video on page load
+
+If Flash player fallback is desired, the following constants must be defined:
+
+VH_FLASH_PLAYER_LOCATION		string			The full path to the flash player
+VH_FLASH_PLAYER_FILETYPES		array(string)	The filetypes supported by the flash player
+
+Simply include the script in any file you wish to use the function.
+
+== Credits ==
+
+The HTML which this script generates is based on the "Video for Everybody!" article:
+
+http://camendesign.com/code/video_for_everybody
